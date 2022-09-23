@@ -90,15 +90,33 @@ main{
     margin-left: -200px;
     font-family: 'Poppins';
     font-weight: 500px;
+    font-size: 16px;
 }
 .caixa{
     background-color: #383838;
     margin-top: 550px;
     margin-left: -450px;
     height: 57px;
-    width: 380px;
-    
+    width: 380px;  
 }
+.texto5{
+    margin-top: 18px;
+    text-align: center;
+    line-height: 19px;
+    font-weight: 19px;
+    font-size: 20px;
+    font-family: 'Poppins';
+    color: #ffffff;
+}
+.homem{
+    display: flex;
+    justify-content: center;
+     margin-left: 100px;
+     margin-top: 20px;
+     width: 1000px;
+     height: 800px;
+}
+
 
 
 
