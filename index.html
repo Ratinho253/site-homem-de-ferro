@@ -1,61 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+    <title>Iron Man</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@500&display=swap" rel="stylesheet">
-    <title> Atividade </title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,800;1,300&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/c3a95e0dc1.js" crossorigin="anonymous"></script> 
 </head>
 <body>
-    <header>
-        <img  class="imagem" src="./imagem/marvel-logo.png" alt="logo marvel ">
+    <!-- Dentro do body tem o header,fiz duas seçoes para o header,um para o menu e outra para os ícones -->
+  <header class="cabeçalho">
+    <img class="cabeçalho-logo" src="./imagem/logo-marvel.png" alt="logo">
+     <!-- aqui é a seção do menu que são os nomes -->
+    <section>
+        <nav class="cabeçalho-menu">
+        <a  href="#" class="cabeçalho-home">Home</a>
+        <a  href="#"class="cabeçalho-avangers"> Avengers </a>
+        <a  href="#" class="cabeçalho-celestials">Celestials</a>
+        <a  href="#" class="cabeçalho-about">About</a>
         
-            <ul class="nomes">
-                <li>Home </li>
-                <li>Avengers</li>
-                <li>Celestials</li>
-                <li> About </li>
-            </ul>
-        <ul class="logos" >
-            <img class="logo1" src="./imagem/lupa.png" alt="lupa">
-            <img class="logo2" src="./imagem/Rectangle 9.png"  alt="icone3">
-            <img class="logo3" src="./imagem/Vector 1.png" alt="usuario">
-        </ul>
-        <div class="linha"> <img src="./imagem/Rectangle 10.png" alt="linha em baixo do home"> </div>   
-    </header>
-    <main>
-        <SPAn class="texto1">Marvel Character</SPAn>
-        <span class="texto2"> IRON MAN</span>
-        <span class="texto3"> Tony Stark</span>
-        <Span class="texto4"> Iron Man is a superhero appearing in American comic books published by Marvel Comics. Each of Tony’s suits provides a full range of telecommunications, sophisticated artificial intelligence capable of piloting Tony to safety should he be rendered unconscious.</Span>
-        <div class="caixa"> <div class="texto5"> Are you Marvel fan? </div></div>
-        <div class="homem"> <img src="./imagem/homem de ferro.png" alt="homem de  ferro"></div>
-
-    </main>
-    <footer>
-         <div class="social-midia"> 
-          <a href="" class="social-midia_figma">
-            <img src="./imagem/7564187_figma_logo_brand_icon.png" alt="logotipo do figma">
-          </a> 
-          <a href="" class="social-midia_git">
-            <img src="./imagem/VectorF.png" alt="logotipo do github">
-          </a> 
-          <a href="" class="social-midia_figma">
-            <img src="./imagem/VectorT.png" alt="logotipo do twitter">
-          </a> 
-          <a href="" class="social-midia_figma">
-            <img src="./imagem/9024634_instagram_logo_light_icon.png" alt="logotipo do instagram">
-          </a> 
-          </div>
-
-
-
-
-    </footer>
+    </nav>
+    </section>
+          <!-- aqui é a seção dos icones  -->
+          <section>
+            <nav class="cabeçalho-icones"> 
+            <img class="lupa-menu" src="./imagem/lupa-menu.png" alt="lupa-site">
+            <img class="retangulo-menu" src="./imagem/retangulo-menu.png" alt="retangulo-site">
+             <img class="icone-menu" src="./imagem/icone-menu.png" alt="icone-site">
+            </nav>
+          </section>
+  </header>  
+  </main>
+      <!--  Daqui pra baixo são os conteudos-->
+  <div class="conteudo">
+    <section class="conteudo-principal">
+    <div class="conteudo-principal-escrito">
+        <span class="marvel-character"> Marvel Character</span>
+        <h1 class="titulo">IRON MAN</h1>
+        <p class="subtitulo">Tony Stark</p>
+        <p class="texto">Iron Man is a superhero appearing in American comic <br>books published by Marvel Comics.
+             Each of Tony’s <br> suits provides a full range of telecommunications,<br> sophisticated artificial intelligence capable of piloting <br>Tony to safety should he be rendered unconscious.
+         </p>
+        
+         
+         <a href="https://www.marvel.com/" target="_blank" class="next">Next Marvel Character</a>
+         <i class="fa-regular fa-circle-right setanext"></i>
+          <a href="https://www.marvel.com/" target="_blank" class="botao">Are you Marvel fan? </a>
+          
+  </div>
+  
+       <img class="homem-no-site" src="./imagem/homem-de-ferro.png" alt="homem-site">
+       <img class="frase-iron" src="./imagem/ironman-lateral.png" alt="frase-lateral">
+      
+      
+      
+  </section>
+    <img class= "logos-sociais" src="./imagem/Frame 2.png" alt="logos">
+ 
+  <footer>
     
+    
+
+  </footer>
 </body>
+
+
 </html>
